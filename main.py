@@ -4,7 +4,7 @@ import getpass
 #Directory to sort
 if name == 'nt':
     # requests user input of relative file path from users profile folder (Windows)
-    relative_directory = raw_input("Enter Relative Folder Path from {0}: ".format(getpass.getuser()))
+    relative_directory = raw_input("Enter Reletive Folder Path from {0}: ".format(getpass.getuser()))
     directory =  path.join(environ['USERPROFILE'], relative_directory)
 else:
     # requests user input of relative file path from users profile folder (Unix)
@@ -22,12 +22,14 @@ exts = {
 "Music": ['.mp3','.ogg','.wav'],
 "Videos": ['.mp4','.3gp','.avi'],
 "Pictures": ['.jpg','.jpeg','.png','.bmp','.gif'],
-"Archives": ['.zip','.rar','.7zip','.tar','.iso','.tar.gz'],
+"Archives": ['.zip','.rar','.7zip','.tar','.iso','tar.xz','tar.gz','tar.bz2'],
 "Documents": ['.docx','.doc','.pdf','.txt','.ppt','.pptx','.ppsx','.pptm',
              '.docm','.dotx','.dotm','.docb','.xlsx','.xlsm','.xltx',
              '.xltm','.xlsb','.xla','.xlam','.xll','.xlw',
              '.ACCDB','.ACCDE','.ACCDT','.ACCDR','.pub',
-             '.potx','.potm','.ppam','.ppsm','.sldx','.sldm']
+             '.potx','.potm','.ppam','.ppsm','.sldx','.sldm','.csv'],
+"Debian Packages": ['.deb','.AppImage','.run'],
+"Ebooks": ['.epub','.mobi','.cbr','.djvu','.azw3']
 }
 
 #Check each file in the directory
