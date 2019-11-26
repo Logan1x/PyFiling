@@ -20,7 +20,7 @@ exts = {
 "Applications": ['.exe'],
 "Code": ['.py','.java','.c','.cpp','.rb','.asm','.php','.html','.css','.js','.lua','.jar','.o','.obj'],
 "Music": ['.mp3','.ogg','.wav'],
-"Videos": ['.mp4','.3gp','.avi'],
+"Videos": ['.mp4','.3gp','.avi','.webm'],
 "Pictures": ['.jpg','.jpeg','.png','.bmp','.gif'],
 "Archives": ['.zip','.rar','.7zip','.tar','.iso','tar.xz','tar.gz','tar.bz2'],
 "Documents": ['.docx','.doc','.pdf','.txt','.ppt','.pptx','.ppsx','.pptm',
